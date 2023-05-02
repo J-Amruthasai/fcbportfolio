@@ -1,0 +1,73 @@
+
+<!-- comments are used for perfect documentation and also help us understand wand write code better
+ctrl + /  -->
+<!-- for whole html format use <html + tab key -->
+<!-- good practice to use comments for coders -->
+
+<!-- tells the browser to read the file -->
+<!DOCTYPE html>
+
+<!-- This is a container for all html elements -->
+<html>
+
+	<!-- This contains info that the browser don't have  -->
+	<head>
+
+		<!-- specifies the data encoding of browser -->
+		<meta charset="utf-8">
+
+		<!-- allow us to have a responsive web page. us viewing in phone/lap/tab -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<!-- This will display the title of the webpage that will be visible in the browser -->
+		<title>Amrutha sai | Web Deveveloper Portfolio</title>
+
+		<!-- Google font -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Roboto&display=swap" rel="stylesheet">
+
+		<!-- Bootstrap css -->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
+		<!-- External css can be used for multilple html files also -->
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+
+
+	<!-- This contains the actual content of the html file that are visile in the web browser -->
+	<body>
+
+		<!-- The <div> tag creates a wrapper container for our layout
+		-"class attribute is a name give to our div tag" -->
+		<div class="container-fluid">
+
+			<!-- the section tag to be used togroup elements togther
+			"id" is an attribute to name our tag uniquely -->
+			<!-- making text to center -->
+			<!-- mt-5 adds space for section(mt = margin-top) -->
+			<section id = "landing" class="text-center mt-5">
+
+				<!-- This will create a heading tag -->
+				<h1>Full Stack Web Developer</h1>
+
+				<!-- paragraph tag -->
+				<p>Hi! My name is Amrutha And I am intrested doing new things
+
+					<!-- This allows to have a image closing tag to add image--></p>
+
+					<!-- image-fluid will avoid the image from overflow means if we zoom in and zoom out the webpage the image follows accordingingly -->
+				<img src="images/avatar.jpg" id="profile" class = "image-fluid">
+				<br>
+
+				<!-- a href will add a link element that will redirect the user to their default mail applicatiom once clicked -->
+				<!-- btn will remove the hyperlink over color blue -->
+				<!-- btn-success will give a green one as there are warning, danger.. etc also -->
+				<!--btn lg for large button and sm, md for small and middle-->
+				<a class="btn btn-success btn-md mt-5" href="mailto:janagani.amruthasai.21031@iitgoa.ac.in, jasbtsarmy29@gmail.com">mail</a>
+			</section>
+		</div>
+		<!-- Bootstrap for js -->
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+	</body>
+</html>
